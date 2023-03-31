@@ -34,8 +34,7 @@
                     include "paginas/" . $_GET["ruta"] . ".php";
                 } else{
                     include "paginas/error404.php";
-                }
-           
+                } 
             } else{
                 include "paginas/registro.php";
             }
